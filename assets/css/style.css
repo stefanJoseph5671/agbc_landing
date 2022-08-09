@@ -6659,7 +6659,7 @@ footer.style-2 .footer-top.dark-view * {
 
 
 .header-logo {
-  width: 75px;
+  width: 100px;
 }
 
 .certificate-tag {
@@ -6678,8 +6678,58 @@ footer.style-2 .footer-top.dark-view * {
   background: #f79a3d !important;
 }
 
+.about-img-main {
+  width: 470px;
+}
+
+.about-img-left {
+  width: 270px;
+  left: -66px;
+  bottom: -50px !important;
+  display: block !important;
+}
+
+.about-img-right {
+  width: 270px;
+  bottom: -150px !important;
+  display: block !important;
+}
+
+.fee-table > thead {
+  vertical-align: bottom;
+  background: #bdd5ff;
+}
+
+.library-link {
+  color: #6390cb !important;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .header-logo {
-    width: 50px;
+    width: 70px;
+  }
+
+  .about-us-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 210px !important;
+  }
+
+  .about-img-main {
+    width: 300px;
+  }
+
+  .about-img-left {
+    width: 200px;
+    left: 0px;
+    bottom: -50px !important;
+    display: block !important;
+  }
+
+  .about-img-right {
+    width: 200px;
+    bottom: -150px !important;
+    display: block !important;
   }
 }
